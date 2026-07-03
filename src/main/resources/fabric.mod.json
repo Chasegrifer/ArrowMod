@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "arrowmod",
+  "version": "1.0.0",
+  "name": "Arrow Mod",
+  "description": "Стреляй 10 стрелами с алмазным мечом!",
+  "authors": [
+    "Chasegrifer"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Chasegrifer/ArrowMod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chasegrifer.arrowmod.ArrowModMain"
+    ],
+    "client": [
+      "com.chasegrifer.arrowmod.client.ArrowModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
